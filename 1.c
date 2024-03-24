@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 int main(){
     printf("查看单数\n");
     printf("输入你想要查询的数字\n");
@@ -15,5 +16,6 @@ int main(){
             printf("\n");
         }
     }
+    system("pause");
     return 0;
 }
